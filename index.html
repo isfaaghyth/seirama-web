@@ -15,32 +15,63 @@
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+
+    <style media="screen">
+      .icon-bar {
+         background-color:#FF0000 !important;
+      }
+
+      .navbar-toggle {
+         border: none;
+         outline: none;
+      }
+
+      @media (max-width: 767px) {
+          .navbar-toggle {
+            border: none;
+            outline: none;
+          }
+      }
+
+      .drop-shadow {
+         box-shadow: 0 4px 8px 0 rgb(239, 239, 239), 0 6px 20px 0 rgba(194, 194, 194, 0.2);
+      }
+
+      .thumbnail.drop-shadow {
+         padding-left:0;
+         padding-right:0;
+      }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
     <div class="navbar navbar-fixed-top navbar-inverse navbar-custom">
-        <div class="container">
-              <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar" style="background-color: black"></span>
-                      <span class="icon-bar" style="background-color: black"></span>
-                      <span class="icon-bar" style="background-color: black"></span>
-                  </button>
-                  <a href="index.html" class="navbar-brand">seirama</a>
-              </div>
+        <div class="navbar-inner">
+           <div class="container">
+                 <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                         <span class="sr-only">Toggle navigation</span>
+                         <span class="icon-bar" style="background-color: black"></span>
+                         <span class="icon-bar" style="background-color: black"></span>
+                         <span class="icon-bar" style="background-color: black"></span>
+                     </button>
+                     <a class="navbar-brand" href="index.html">
+                       <img alt="Seirama" src="dist/img/seirama-logo.png">
+                     </a>
+                 </div>
 
-              <div class="collapse navbar-collapse" id="navbar-collapse">
-                  <ul class="nav navbar-nav navbar-right">
-                      <li class="active">
-                          <a href="index.html">
-                              Home <span class="sr-only">(current)</span>
-                          </a>
-                      </li>
-                      <li><a href="donate.html">Donate</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                  </ul>
-              </div>
+                 <div class="collapse navbar-collapse" id="navbar-collapse">
+                     <ul class="nav navbar-nav navbar-right">
+                         <li class="active">
+                             <a href="index.html">
+                                 Home <span class="sr-only">(current)</span>
+                             </a>
+                         </li>
+                         <li><a href="donate.html">Donate</a></li>
+                         <li><a href="contact.html">Contact</a></li>
+                     </ul>
+                 </div>
+           </div>
         </div>
     </div>
     <!-- /Navigation -->
@@ -61,31 +92,34 @@
       <br>
       <div class="row">
         <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
+          <div class="thumbnail drop-shadow">
             <div class="caption">
               <center>
                   <h4><b>12 kali</b></h4>
-                  <p>agenda</p>
+                  <span class="label label-primary">agenda</span>
+                  <br><br>
               </center>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
+          <div class="thumbnail drop-shadow">
             <div class="caption">
               <center>
                 <h4><b>Rp 123.000.000</b></h4>
-                <p>terkumpul</p>
+                <span class="label label-success">terkumpul</span>
+                <br><br>
               </center>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
+          <div class="thumbnail drop-shadow">
             <div class="caption">
               <center>
                   <h4><b>Rp 120.000.000</b></h4>
-                  <p>terpakai</p>
+                  <span class="label label-info">terpakai</span>
+                  <br><br>
               </center>
             </div>
           </div>

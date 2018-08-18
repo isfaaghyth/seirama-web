@@ -234,7 +234,7 @@ body {
 }
 
 .navbar.navbar-inverse.navbar-custom .navbar-brand:hover {
-   color: #ff6c40;
+   color: #007fb2;
    -webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out
@@ -246,14 +246,14 @@ body {
 }
 
 .navbar.navbar-inverse.navbar-custom .navbar-nav>li>a:hover, .navbar.navbar-inverse.navbar-custom .navbar-nav>li>a:focus {
-   color: #ff6c40;
+   color: #007fb2;
    -webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out
 }
 
 .navbar.navbar-inverse.navbar-custom .navbar-nav>.active>a, .navbar.navbar-inverse.navbar-custom .navbar-nav>.active>a:hover, .navbar.navbar-inverse.navbar-custom .navbar-nav>.active>a:focus {
-   color: #ff6c40;
+   color: #007fb2;
    background-color: #fff;
    -webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -294,7 +294,7 @@ header p {
    animation: smooth-entry-btn 1s
 }
 
-/* 
+/*
 header p:after {
    content: '';
    position: absolute;
@@ -358,7 +358,7 @@ header .img-header {
 }
 
 .content .post a h1:hover {
-   color: #FF6C40;
+   color: #007fb2;
    transition: all .2s ease-in-out
 }
 
@@ -372,11 +372,11 @@ header .img-header {
 .content .post a.read-more {
    padding: 5px 10px;
    background-color: #FFF;
-   border: 1px solid #E85F37;
+   border: 1px solid #007fb2;
    -moz-border-radius: 5px;
    -webkit-border-radius: 5px;
    border-radius: 5px;
-   color: #E85F37;
+   color: #007fb2;
    font-size: 13px;
    font-weight: 700;
    text-transform: uppercase;
@@ -385,7 +385,7 @@ header .img-header {
 }
 
 .content .post a.read-more:hover {
-   background-color: #FF6C40;
+   background-color: #007fb2;
    color: #fff;
    -webkit-transition: all 0.25s ease-in-out;
    -moz-transition: all 0.25s ease-in-out;
